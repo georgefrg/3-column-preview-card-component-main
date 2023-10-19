@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+  width: 800px;
+  margin: 10rem 20rem;
+  height: 400px;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 6px;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.heading {
+  margin: 1rem;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", sans-serif;
+  color: hsl(0, 0%, 95%);
+  padding-left: 1rem;
+  padding-right: 2rem;
+}
+
+img {
+  margin-left: 1rem;
+  margin-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 2rem;
+}
+
+.description {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin: 1rem;
+  padding-left: 1rem;
+  padding-right: 2rem;
+}
+
+.btn {
+  color: inherit;
+  border: 1px solid hsl(0, 0%, 95%);
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 24px;
+  width: 50%;
+  height: 10%;
+  margin-top: 5rem;
+  margin-left: 3rem;
+}
+
+.btn:hover {
+  background-color: inherit;
+  cursor: pointer;
+}
